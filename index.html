@@ -1,100 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Vinicius Rocha e Silva</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Vinicius Rocha e Silva</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <main class="page">
 
-<div class="page">
+    <section class="top-icons">
+      <a href="https://www.behance.net/" target="_blank" title="Behance">Bē</a>
 
-    <div class="header">
+      <a href="https://drive.google.com/file/d/1vG5AqYw-LLL5Xo0GI5dl6ACumMqAGy_w/view?usp=drive_link" target="_blank" title="CV">
+        CV
+      </a>
 
-        <h1 class="name">Vinicius Rocha e Silva</h1>
+      <a href="https://www.linkedin.com/in/vinicius-silva-9a6b55204/" target="_blank" title="LinkedIn">
+        in
+      </a>
 
-        <h2 class="area">Tech & Analytics</h2>
+      <a href="mailto:viniciusrochasilva19@gmail.com" title="E-mail">
+        ✉
+      </a>
+    </section>
 
-        <p class="summary">
-            Product Owner com experiência em gestão de produtos, projetos de tecnologia,
-            transformação digital, Facilities, Analytics e automação de processos.
-        </p>
+    <img class="profile-photo" src="foto.jpg" alt="Foto de Vinicius Rocha e Silva">
 
-        <p class="bio">
-            Atuação em projetos estratégicos envolvendo integração de sistemas,
-            infraestrutura cloud, governança de dados, controle de acesso,
-            facilities e otimização operacional.
-        </p>
+    <header class="header">
+      <h1>Vinicius Rocha e Silva</h1>
+      <h2>Tech &amp; Analytics</h2>
 
-    </div>
+      <p class="headline">
+        Program Management Analyst na Serasa Experian | Inovação, Analytics e Otimização de Processos |
+        Power Platform (Power Automate, Power Apps) | Power BI &amp; Tableau | Python &amp; SQL |
+        Lean Six Sigma Green Belt
+      </p>
 
-    <!-- FOTO -->
-    <img
-        class="profile-photo"
-        src="https://via.placeholder.com/300"
-        alt="Foto de Perfil">
+      <p class="bio">
+        Profissional orientado à inovação e geração de valor, liderando iniciativas que conectam tecnologia,
+        dados e processos para impulsionar eficiência operacional e transformação digital.
+      </p>
+    </header>
 
-    <!-- REDES -->
-    <div class="social">
-        <a href="https://linkedin.com" target="_blank">in</a>
-        <a href="#">CV</a>
-        <a href="mailto:email@email.com">@</a>
-    </div>
+    <section class="project-section">
+      <h2 class="section-label">Projeto</h2>
+      <h3 id="project-title" class="project-title"></h3>
+      <p id="project-description" class="project-description"></p>
 
-    <h2 class="section-title">Projetos</h2>
+      <div class="project-card">
+        <div class="grid-header">Duração</div>
+        <div class="grid-header">Atuação</div>
+        <div class="grid-header">Principais Entregas</div>
+        <div class="grid-header">Impacto</div>
 
-    <h3 id="project-title" class="project-title"></h3>
-
-    <p id="project-description" class="project-description"></p>
-
-    <div class="project-card">
-
-        <div class="card-grid">
-
-            <div>
-                <div class="card-header">Duração</div>
-                <div class="card-cell">
-                    <div id="project-duration" class="duration"></div>
-                </div>
-            </div>
-
-            <div>
-                <div class="card-header">Atuação</div>
-                <div class="card-cell">
-                    <div id="project-role" class="role"></div>
-                    <p id="project-role-text"></p>
-                </div>
-            </div>
-
-            <div>
-                <div class="card-header">Principais Entregas</div>
-                <div class="card-cell">
-                    <ul id="project-deliveries"></ul>
-                </div>
-            </div>
-
-            <div>
-                <div class="card-header">Impacto Gerado</div>
-                <div class="card-cell">
-                    <ul id="project-impact"></ul>
-                </div>
-            </div>
-
+        <div class="grid-cell">
+          <p id="project-duration" class="duration"></p>
         </div>
 
-    </div>
+        <div class="grid-cell">
+          <h4 id="project-role"></h4>
+          <p id="project-role-text"></p>
+        </div>
 
-    <div class="nav-buttons">
-        <button onclick="projetoAnterior()">⬅ Projeto Anterior</button>
-        <button onclick="proximoProjeto()">Próximo Projeto ➡</button>
-    </div>
+        <div class="grid-cell">
+          <ul id="project-deliveries"></ul>
+        </div>
 
-</div>
+        <div class="grid-cell">
+          <ul id="project-impact"></ul>
+        </div>
+      </div>
 
-<script src="script.js"></script>
+      <div class="nav-buttons">
+        <button onclick="projetoAnterior()">← Projeto anterior</button>
+        <span id="project-counter"></span>
+        <button onclick="proximoProjeto()">Próximo projeto →</button>
+      </div>
+    </section>
 
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
