@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Vinicius Rocha e Silva</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page">
+
+    <div class="header">
+
+        <h1 class="name">Vinicius Rocha e Silva</h1>
+
+        <h2 class="area">Tech & Analytics</h2>
+
+        <p class="summary">
+            Product Owner com experiência em gestão de produtos, projetos de tecnologia,
+            transformação digital, Facilities, Analytics e automação de processos.
+        </p>
+
+        <p class="bio">
+            Atuação em projetos estratégicos envolvendo integração de sistemas,
+            infraestrutura cloud, governança de dados, controle de acesso,
+            facilities e otimização operacional.
+        </p>
+
+    </div>
+
+    <!-- FOTO -->
+    <img
+        class="profile-photo"
+        src="https://via.placeholder.com/300"
+        alt="Foto de Perfil">
+
+    <!-- REDES -->
+    <div class="social">
+        <a href="https://linkedin.com" target="_blank">in</a>
+        <a href="#">CV</a>
+        <a href="mailto:email@email.com">@</a>
+    </div>
+
+    <h2 class="section-title">Projetos</h2>
+
+    <h3 id="project-title" class="project-title"></h3>
+
+    <p id="project-description" class="project-description"></p>
+
+    <div class="project-card">
+
+        <div class="card-grid">
+
+            <div>
+                <div class="card-header">Duração</div>
+                <div class="card-cell">
+                    <div id="project-duration" class="duration"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card-header">Atuação</div>
+                <div class="card-cell">
+                    <div id="project-role" class="role"></div>
+                    <p id="project-role-text"></p>
+                </div>
+            </div>
+
+            <div>
+                <div class="card-header">Principais Entregas</div>
+                <div class="card-cell">
+                    <ul id="project-deliveries"></ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="card-header">Impacto Gerado</div>
+                <div class="card-cell">
+                    <ul id="project-impact"></ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="nav-buttons">
+        <button onclick="projetoAnterior()">⬅ Projeto Anterior</button>
+        <button onclick="proximoProjeto()">Próximo Projeto ➡</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
