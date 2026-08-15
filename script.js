@@ -143,7 +143,7 @@ const projetos = [
   {
     titulo: "Modernização da Infraestrutura de CFTV – Brasília",
     descricao: "Projeto de modernização da infraestrutura de monitoramento por CFTV do escritório de Brasília. O ambiente operava em modelo stand-alone, utilizando DVR e VLAN dedicada para conexão das câmeras. Com a modernização, o site passou a seguir o mesmo padrão tecnológico adotado nos demais escritórios, com as câmeras integradas à plataforma ExacqVision e conectadas diretamente à infraestrutura de rede corporativa.",
-    duracao: "Em andamento",
+    duracao: "2 meses",
     atuacao: "Coordenação de Projeto / Infraestrutura e Segurança Física",
     atuacaoTexto: "Atuei na coordenação das atividades de modernização do ambiente de CFTV, realizando o alinhamento entre Facilities, Network e fornecedores responsáveis pela infraestrutura e sustentação da solução. Acompanhei o planejamento das etapas, adequações físicas, disponibilização de endereçamento IP, conexão das câmeras à rede corporativa e integração dos dispositivos à plataforma ExacqVision.",
     entregas: [
@@ -167,7 +167,7 @@ const projetos = [
   {
     titulo: "Automação Emissão Permissão de Trabalho (PTR)",
     descricao: "Este projeto teve como objetivo otimizar e automatizar o processo de emissão de Permissão de Trabalho (PTR), garantindo maior agilidade, conformidade e rastreabilidade. A solução foi desenvolvida utilizando Power Automate, Microsoft Forms, Microsoft Lists e integração com Microsoft Teams, eliminando processos manuais e centralizando as informações. No fim, todas as informações do processo foram conectadas a um relatório no Power BI, permitindo análise e acompanhamento estratégico.",
-    duracao: "3 mês",
+    duracao: "3 meses",
     atuacao: "Equipe",
     atuacaoTexto: "Liderei o desenvolvimento da solução de workflow, utilizando Power Automate, Forms e Teams, desde a definição das regras de negócio até a validação com a equipe de Segurança do Trabalho. Implementei a inteligência de dados no processo, integrando todas as informações (fluxo e indicadores) ao Power BI para análise em tempo real.",
     entregas: [
