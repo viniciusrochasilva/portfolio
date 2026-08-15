@@ -15,8 +15,9 @@ const projetos = [
       "Benefícios Operacionais (RH/Facilities): passaram a consumir logs de acesso para análises estratégicas como Frequência/Ocupação de Trabalho (FOW) e gestão de ocupação predial."
     ]
   },
+
   {
-    titulo: "MIGRAÇÃO DE SERVIDORES DE APLICAÇÃO e BANCO (Cloud) / ATUALIZAÇÃO DA APLICAÇÃO",
+    titulo: "Migração de Servidores de Aplicação e Banco (Cloud) / Atualização da Aplicação CC9000 da versão 2.8 para 3.10",
     descricao: "Projeto estratégico voltado à modernização da infraestrutura da plataforma de controle de acesso corporativo C-CURE 9000, contemplando a migração dos servidores de aplicação e banco de dados para ambiente Cloud (AWS), além da atualização da solução da versão 2.8 para a versão 3.10 SP1. A iniciativa teve como objetivo aumentar a disponibilidade, segurança e escalabilidade da plataforma, reduzindo riscos associados à obsolescência tecnológica e garantindo suporte contínuo do fabricante. O projeto foi conduzido sem impactos à operação de controle de acesso físico, assegurando a continuidade dos serviços durante todo o processo de migração e atualização.",
     duracao: "2 meses",
     atuacao: "Product Owner (PO)",
@@ -38,8 +39,9 @@ const projetos = [
       "Migração executada sem impacto significativo para os usuários finais."
     ]
   },
+
   {
-    titulo: "Implantação de Software para Gestão de Facilities (Fracttal One)",
+    titulo: "Implantação de Software para Gestão de Facilities em Seis (6) Sites (Fracttal One)",
     descricao: "Projeto estratégico voltado à seleção e implantação de uma plataforma corporativa para gestão integrada de Facilities, com foco na centralização de processos, aumento da eficiência operacional e fortalecimento da governança. A iniciativa contemplou o levantamento de requisitos, avaliação técnica de fornecedores, benchmarking de mercado e validação junto às áreas de negócio e parceiros corporativos globais. A plataforma foi projetada para consolidar a gestão de chamados, documentação, estoque, contratos e processos operacionais em um único ambiente, eliminando controles paralelos e proporcionando maior visibilidade sobre as operações.",
     duracao: "1 ano",
     atuacao: "Atuei como Líder Técnico e Especialista de Negócio:",
@@ -60,6 +62,108 @@ const projetos = [
       "Modernização da gestão de Facilities por meio da digitalização de processos."
     ]
   },
+
+  {
+    titulo: "Travel One View – Visão Executiva de Gastos com Viagens",
+    descricao: "Projeto estratégico desenvolvido para centralizar e padronizar a visão corporativa de gastos com viagens (Travel), proporcionando maior visibilidade para a liderança sênior e áreas financeiras. O principal desafio foi identificar e mapear diferentes fontes de dados, estabelecer padrões para cruzamento e consolidação das informações e criar uma estrutura única de reporting por Vice-Presidência. Como resultado, foi desenvolvido um dashboard centralizado no Power BI, com controle de acesso baseado em permissões, permitindo que cada VP e seus respectivos times de BU Finance acompanhem seus indicadores de Travel de forma estruturada e recorrente.",
+    duracao: "3 meses",
+    atuacao: "Data & Analytics",
+    atuacaoTexto: "Atuei na estruturação e consolidação da base de dados, no desenvolvimento do dashboard executivo no Power BI e na criação da Skill utilizada para padronizar e simplificar a geração do report executivo em Claude.",
+    entregas: [
+      "Travel One View: criação de uma visão única e centralizada dos gastos corporativos com viagens.",
+      "Dashboard executivo no Power BI estruturado por Vice-Presidência, com acesso baseado em permissões para VPs e BU Finance.",
+      "Estruturação e padronização da base de dados, consolidando diferentes fontes e estabelecendo regras para o cruzamento das informações.",
+      "Reporting mensal: distribuição de um resumo de Travel para todos os VPs no dia 15 de cada mês.",
+      "Reporte executivo para a CFO utilizando Claude, apoiado por uma Skill criada para simplificar e padronizar a geração do relatório consolidado."
+    ],
+    impacto: [
+      "Visibilidade Executiva: criação de uma visão corporativa centralizada dos gastos com viagens para acompanhamento pela liderança sênior.",
+      "Governança e Padronização: estabelecimento de uma base consolidada e de critérios comuns para análise de Travel entre as Vice-Presidências.",
+      "Identificação de Oportunidades: análise do comportamento dos usuários e dos padrões de viagens para identificar oportunidades de otimização de gastos.",
+      "Gestão Orientada a Dados: acompanhamento mensal de indicadores, boas práticas e metas relacionadas aos gastos com viagens.",
+      "Automação do Reporting: simplificação e padronização da geração do reporte executivo por meio do uso de IA generativa.",
+      "Tomada de Decisão: maior visibilidade para VPs, BU Finance e CFO na identificação de tendências, desvios e oportunidades."
+    ]
+  },
+
+  {
+    titulo: "ESG One View",
+    descricao: "Projeto estratégico desenvolvido para centralizar e padronizar a visão de indicadores ESG da empresa, consolidando mais de 15 bases e temas diferentes em uma única solução. O projeto contemplou desde a estruturação do processo de entrada das informações até a disponibilização de dashboards consolidados e por tema. Para garantir maior qualidade, rastreabilidade e cumprimento dos prazos, foi criado um fluxo de coleta utilizando Microsoft Forms, no qual os colaboradores responsáveis realizam o preenchimento das informações e recebem automaticamente um e-mail de confirmação para validação dos dados enviados. Também foram implementados fluxos automáticos de lembrete e cobrança para acompanhamento dos prazos. Após o envio, automações em Power Automate capturam as respostas e realizam a gravação estruturada das informações em bases no SharePoint.",
+    duracao: "3 meses",
+    atuacao: "Data & Analytics / Automação de Processos",
+    atuacaoTexto: "Atuei na estruturação das bases e do fluxo de coleta de dados, criação dos formulários no Microsoft Forms, desenvolvimento das automações em Power Automate para captura, validação, lembretes, cobrança e gravação das informações no SharePoint e construção dos dashboards utilizando Claude e Python. Também participei da estruturação da experiência de acesso à solução, disponibilizando os dashboards em SharePoint e OneDrive e criando atalhos na área de trabalho dos usuários envolvidos.",
+    entregas: [
+      "ESG One View: criação de uma visão centralizada para acompanhamento de mais de 15 bases e temas relacionados a ESG.",
+      "Processo padronizado de coleta de dados utilizando Microsoft Forms para entrada das informações pelos responsáveis de cada tema.",
+      "Double check automático: envio de e-mail de confirmação após o preenchimento, permitindo ao colaborador validar as informações inseridas e solicitar correções em caso de inconsistências.",
+      "Fluxos automáticos de lembrete: envio de notificações nas datas preestabelecidas para reforçar os prazos de preenchimento.",
+      "Fluxo automático de cobrança: verificação após o prazo definido e envio de nova notificação quando a informação ainda não tiver sido inserida via Microsoft Forms.",
+      "Automação com Power Automate para captura das respostas dos formulários e gravação estruturada dos dados nas bases do SharePoint.",
+      "Estruturação e padronização de mais de 15 bases de dados e temas ESG.",
+      "Desenvolvimento de dashboards utilizando Claude e Python, com visão consolidada e detalhamento individual por tema.",
+      "Disponibilização dos dashboards em SharePoint e OneDrive para acesso dos usuários e gestores envolvidos nos processos.",
+      "Criação de atalhos na área de trabalho dos usuários, facilitando o acesso rápido à solução."
+    ],
+    impacto: [
+      "Visão Consolidada: centralização de mais de 15 temas ESG em um único ambiente, proporcionando maior visibilidade para gestores e responsáveis pelos processos.",
+      "Governança de Dados: padronização do processo de entrada, armazenamento e consumo das informações ESG.",
+      "Cumprimento de Prazos: criação de lembretes e cobranças automáticas para aumentar a aderência dos responsáveis às datas estabelecidas para atualização das informações.",
+      "Qualidade das Informações: criação de um processo de confirmação dos dados enviados, aumentando a capacidade de identificação e correção de inconsistências.",
+      "Automação Operacional: redução da necessidade de acompanhamento manual por meio da automação da coleta, lembretes, cobranças, validação e armazenamento das informações.",
+      "Acesso Simplificado: disponibilização dos dashboards por SharePoint, OneDrive e atalhos diretamente na área de trabalho dos usuários.",
+      "Gestão Orientada a Dados: disponibilização de visões consolidadas e específicas por tema, facilitando análises, acompanhamento dos indicadores e tomada de decisão."
+    ]
+  },
+
+  {
+    titulo: "Conecta Workplace IA – Assistente de GenAI para Atendimento Interno",
+    descricao: "Desenvolvimento de um assistente baseado em Inteligência Artificial Generativa para centralizar e simplificar o acesso dos colaboradores a informações de Workplace. A solução foi criada para responder dúvidas relacionadas a procedimentos, políticas e solicitações internas, funcionando como um ponto único de orientação para o cliente interno. O assistente direciona o usuário para os canais corretos, links de solicitação, responsáveis e lideranças das áreas, reduzindo o tempo necessário para localizar informações e entender como iniciar cada processo.",
+    duracao: "2 meses",
+    atuacao: "GenAI / Desenvolvimento de Assistente IA",
+    atuacaoTexto: "Atuei na estruturação da base de conhecimento do assistente, organização dos conteúdos de Workplace e definição da lógica de respostas e direcionamentos. A solução foi desenvolvida para consultar conteúdos centralizados no Confluence, permitindo uma sustentação mais simples e atualização contínua das informações utilizadas pelo assistente.",
+    entregas: [
+      "Conecta Workplace IA: criação de um assistente de Inteligência Artificial Generativa como ponto central de atendimento e orientação para colaboradores.",
+      "Centralização de procedimentos, políticas, links, responsáveis e canais de atendimento relacionados aos serviços de Workplace.",
+      "Estruturação da base de conhecimento no Confluence, permitindo que o assistente consuma uma fonte corporativa centralizada e de fácil manutenção.",
+      "Orientação inteligente sobre como solicitar serviços relacionados a Facilities, Logística, Mobilidade, Segurança do Trabalho, Segurança Patrimonial e serviços corporativos.",
+      "Direcionamento automático para formulários, sistemas, links, áreas responsáveis e lideranças de acordo com a necessidade apresentada pelo usuário.",
+      "Cobertura de processos estratégicos como Permissão de Trabalho (PTR), Catering, Lockers, transporte entre unidades, envio de materiais, manutenção, limpeza, acesso, crachá e demais serviços de Workplace."
+    ],
+    impacto: [
+      "Experiência do Colaborador: criação de um ponto único para esclarecer dúvidas e localizar rapidamente os canais corretos de atendimento.",
+      "Agilidade no Atendimento: redução do tempo gasto pelos colaboradores procurando procedimentos, links, formulários e responsáveis por cada serviço.",
+      "Centralização do Conhecimento: consolidação das informações de Workplace em uma base estruturada e reutilizável pelo assistente.",
+      "Escalabilidade: possibilidade de ampliar continuamente os temas atendidos pelo assistente sem necessidade de criar novos canais de atendimento.",
+      "Redução de Demandas Repetitivas: automação de respostas para dúvidas recorrentes sobre procedimentos e solicitações internas.",
+      "Governança e Sustentação: utilização do Confluence como fonte central de conhecimento, facilitando atualização, manutenção e evolução das informações consumidas pela IA.",
+      "Direcionamento Inteligente: maior assertividade no encaminhamento dos colaboradores para o processo, sistema ou responsável adequado."
+    ]
+  },
+
+  {
+    titulo: "Modernização da Infraestrutura de CFTV – Brasília",
+    descricao: "Projeto de modernização da infraestrutura de monitoramento por CFTV do escritório de Brasília. O ambiente operava em modelo stand-alone, utilizando DVR e VLAN dedicada para conexão das câmeras. Com a modernização, o site passou a seguir o mesmo padrão tecnológico adotado nos demais escritórios, com as câmeras integradas à plataforma ExacqVision e conectadas diretamente à infraestrutura de rede corporativa.",
+    duracao: "Em andamento",
+    atuacao: "Coordenação de Projeto / Infraestrutura e Segurança Física",
+    atuacaoTexto: "Atuei na coordenação das atividades de modernização do ambiente de CFTV, realizando o alinhamento entre Facilities, Network e fornecedores responsáveis pela infraestrutura e sustentação da solução. Acompanhei o planejamento das etapas, adequações físicas, disponibilização de endereçamento IP, conexão das câmeras à rede corporativa e integração dos dispositivos à plataforma ExacqVision.",
+    entregas: [
+      "Adequação da infraestrutura física e passagem de cabeamento para suportar o novo modelo de conexão das câmeras.",
+      "Disponibilização de endereçamento IP para integração das câmeras à infraestrutura de rede corporativa.",
+      "Conexão e configuração das câmeras na rede corporativa, incluindo parametrização dos respectivos endereços IP.",
+      "Integração e configuração das câmeras na plataforma ExacqVision.",
+      "Padronização da arquitetura de CFTV do escritório de Brasília em relação aos demais escritórios.",
+      "Coordenação das atividades entre Facilities, Network e fornecedores especializados durante a implantação."
+    ],
+    impacto: [
+      "Padronização Tecnológica: alinhamento do ambiente de Brasília ao padrão corporativo de monitoramento utilizado nos demais escritórios.",
+      "Centralização do Monitoramento: integração das câmeras à plataforma ExacqVision, eliminando a operação isolada baseada em DVR.",
+      "Melhoria da Infraestrutura: conexão das câmeras diretamente à rede corporativa, proporcionando uma arquitetura mais integrada e sustentável.",
+      "Governança e Sustentação: simplificação do suporte e manutenção por meio da adoção de uma plataforma e arquitetura padronizadas.",
+      "Escalabilidade: criação de uma infraestrutura preparada para futuras expansões e inclusão de novos dispositivos de monitoramento.",
+      "Integração entre Áreas: coordenação entre Facilities, Network e fornecedores especializados para execução das atividades de infraestrutura e configuração."
+    ]
+  },
+
   {
     titulo: "Automação Emissão Permissão de Trabalho (PTR)",
     descricao: "Este projeto teve como objetivo otimizar e automatizar o processo de emissão de Permissão de Trabalho (PTR), garantindo maior agilidade, conformidade e rastreabilidade. A solução foi desenvolvida utilizando Power Automate, Microsoft Forms, Microsoft Lists e integração com Microsoft Teams, eliminando processos manuais e centralizando as informações. No fim, todas as informações do processo foram conectadas a um relatório no Power BI, permitindo análise e acompanhamento estratégico.",
@@ -76,6 +180,7 @@ const projetos = [
       "Redução de tempo e burocracia: redução significativa do lead time da emissão da PTR, gerando maior agilidade e transparência."
     ]
   },
+
   {
     titulo: "Workspace de Facilities e Dashboards Integrados",
     descricao: "Desenvolvimento de uma plataforma centralizada para consolidar indicadores, processos e informações estratégicas da área de Facilities em um único ambiente digital. A solução integrou dados de Logística, Segurança do Trabalho, Segurança Patrimonial, Engenharia, Frota, Catering e demais operações corporativas, eliminando controles descentralizados e proporcionando uma visão unificada do negócio. O projeto contemplou a estruturação da arquitetura de dados, automação dos processos de atualização e construção de dashboards executivos e operacionais, promovendo maior governança, padronização e agilidade na tomada de decisão.",
@@ -96,6 +201,7 @@ const projetos = [
       "Transparência e eficiência dos processos."
     ]
   },
+
   {
     titulo: "Automação de Tratamento de Dados de Segurança Física",
     descricao: "Este projeto teve como objetivo eliminar o processo manual de extração e tratamento de dados dos relatórios de controle de acesso, que demandava horas diárias de trabalho. A solução foi desenvolvida em Python, utilizando VS Code e recursos de IA generativa, criando rotinas automatizadas para extração diária dos relatórios diretamente em formato Excel para um diretório seguro, renomeação automática dos arquivos após a extração, tratamento completo dos dados e consolidação das informações em uma base única.",
@@ -111,6 +217,7 @@ const projetos = [
       "Governança e padronização: eliminação de erros manuais, garantindo a qualidade e integridade dos dados."
     ]
   },
+
   {
     titulo: "Automação de Extração de Comprovante de Pagamento",
     descricao: "Este projeto teve como objetivo reduzir drasticamente o tempo de busca por comprovantes de pagamento em diretórios com múltiplos arquivos PDF. A solução foi desenvolvida em Python, utilizando VS Code e recursos de IA generativa, permitindo localizar comprovantes por nome do fornecedor ou valor do pagamento de forma rápida e precisa.",
@@ -127,6 +234,7 @@ const projetos = [
       "Escalabilidade e confiabilidade: solução preparada para lidar com volume muito maior de documentos, garantindo a governança e rastreabilidade dos pagamentos."
     ]
   },
+
   {
     titulo: "Automação das Solicitações de Catering",
     descricao: "Digitalização e automação completa do processo de solicitações de catering, substituindo controles manuais por um fluxo inteligente, integrado e rastreável. A solução foi construída com Power Apps, Power Automate, Microsoft Forms e Microsoft Lists, garantindo agilidade, padronização e eliminação de erros operacionais.",
@@ -148,6 +256,7 @@ const projetos = [
       "Governança e padronização dos dados."
     ]
   },
+
   {
     titulo: "Automação das Solicitações de Lockers",
     descricao: "Digitalização e automação completa do processo de solicitação de lockers, substituindo controles manuais por um fluxo padronizado, rastreável e com comunicação automática ao usuário. A solução integrou Microsoft Forms, Microsoft Lists e Power Automate, garantindo organização, agilidade e visibilidade fim a fim.",
@@ -169,6 +278,7 @@ const projetos = [
       "Escalabilidade e padronização."
     ]
   },
+
   {
     titulo: "Segurança de Dados de BI (Backup Automático)",
     descricao: "Implementação de um processo automatizado de backup para garantir a integridade, segurança e disponibilidade das bases utilizadas nos dashboards de BI. A solução, construída com Power Automate, assegura que todas as bases sejam copiadas e armazenadas diariamente em um diretório seguro, reforçando a governança e reduzindo riscos operacionais.",
@@ -188,22 +298,7 @@ const projetos = [
       "Transparência e rastreabilidade."
     ]
   },
-  {
-    titulo: "Implantação do Adobe Sign para Assinatura de Documentos",
-    descricao: "Este projeto teve como objetivo resolver uma dor crítica da área de Segurança do Trabalho relacionada à assinatura das atas da CIPA, que levava cerca de 4 meses para ser concluída, gerando risco de apontamentos jurídicos por descumprimento de prazos legais. A solução consistiu em implementar o Adobe Sign, ferramenta já disponível na empresa, para digitalizar e agilizar o processo de assinatura eletrônica.",
-    duracao: "2 dias",
-    atuacao: "Atuação",
-    atuacaoTexto: "Liderei a implementação da ferramenta Adobe Sign no setor que tinha essa dor, atuando na identificação da solução adequada e na configuração do workflow de assinatura eletrônica.",
-    entregas: [
-      "Treinamento e documentação para garantir a correta utilização e compliance do processo de assinatura.",
-      "Aproveitamento de ferramenta já existente, garantindo a entrega sem custos adicionais de licenciamento."
-    ],
-    impacto: [
-      "Agilidade e conformidade: redução do tempo de conclusão das atas da CIPA de 4 meses para apenas 2 dias.",
-      "Eliminação de risco jurídico: otimização do processo crítico, eliminando o risco de apontamentos jurídicos por atraso no cumprimento da legislação.",
-      "Eficiência operacional: melhoria imediata na produtividade e governança na gestão de documentos críticos."
-    ]
-  },
+
   {
     titulo: "Padronização e Consolidação de Planilhas OPEX",
     descricao: "Este projeto teve como objetivo criar uma dinâmica eficiente para acompanhamento dos gastos OPEX durante o mês e ao longo do ano fiscal. A solução foi a criação de uma planilha padronizada para cada gestão registrar seus faturamentos, com um processo automatizado que realiza o join dessas informações, consolidando aproximadamente 15 planilhas em um único arquivo. Esse consolidado final alimenta um dashboard no Power BI, garantindo visibilidade estratégica para liderança sênior e analistas responsáveis pelo MMC.",
@@ -220,6 +315,7 @@ const projetos = [
       "Otimização de tempo: eliminação do tempo gasto na compilação manual das planilhas mensais, agilizando o ciclo de reporting financeiro."
     ]
   },
+
   {
     titulo: "Criação de Formulários no ServiceNow para Logística",
     descricao: "Este projeto teve como objetivo digitalizar e padronizar os processos de logística por meio da criação de formulários no ServiceNow, garantindo maior organização, rastreabilidade e eficiência. Junto ao gestor e responsáveis pelos processos, realizamos o mapeamento completo, identificamos necessidades e definimos o escopo para todos os fluxos, solicitando ao time responsável a criação dos formulários.",
@@ -235,8 +331,26 @@ const projetos = [
       "Governança e padronização: garantia de um padrão único para todas as solicitações, reduzindo erros manuais e dispersão de informações.",
       "Eficiência operacional: agilização do atendimento e da execução dos serviços de Logística, com foco na organização e eficiência."
     ]
+  },
+
+  {
+    titulo: "Implantação do Adobe Sign para Assinatura de Documentos",
+    descricao: "Este projeto teve como objetivo resolver uma dor crítica da área de Segurança do Trabalho relacionada à assinatura das atas da CIPA, que levava cerca de 4 meses para ser concluída, gerando risco de apontamentos jurídicos por descumprimento de prazos legais. A solução consistiu em implementar o Adobe Sign, ferramenta já disponível na empresa, para digitalizar e agilizar o processo de assinatura eletrônica.",
+    duracao: "2 dias",
+    atuacao: "Atuação",
+    atuacaoTexto: "Liderei a implementação da ferramenta Adobe Sign no setor que tinha essa dor, atuando na identificação da solução adequada e na configuração do workflow de assinatura eletrônica.",
+    entregas: [
+      "Treinamento e documentação para garantir a correta utilização e compliance do processo de assinatura.",
+      "Aproveitamento de ferramenta já existente, garantindo a entrega sem custos adicionais de licenciamento."
+    ],
+    impacto: [
+      "Agilidade e conformidade: redução do tempo de conclusão das atas da CIPA de 4 meses para apenas 2 dias.",
+      "Eliminação de risco jurídico: otimização do processo crítico, eliminando o risco de apontamentos jurídicos por atraso no cumprimento da legislação.",
+      "Eficiência operacional: melhoria imediata na produtividade e governança na gestão de documentos críticos."
+    ]
   }
 ];
+
 
 let projetoAtual = 0;
 
